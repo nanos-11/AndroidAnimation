@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.animation.nan.androidanimation.widget.AnimationButton
+        android:id="@+id/animation_btn"
+        android:layout_width="200dp"
+        android:layout_height="50dp" />
+
+
+    <Button
+        android:id="@+id/bubbleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="bubbleView" />
+
+    <Button
+        android:id="@+id/WaveByBezier"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WaveByBezier" />
+
+    <Button
+        android:id="@+id/WaveBySinCos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WaveBySinCos" />
+
+    <Button
+        android:id="@+id/TagActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TagActivity" />
+
+
+</LinearLayout>

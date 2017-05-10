@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WaveAnimatorView">
+
+        <attr name="waveStartColor" format="color" />
+        <attr name="waveEndColor" format="color" />
+        <attr name="waveLength" format="dimension" />
+        <attr name="waveDuration" format="integer" />
+        <attr name="waveAmplitude" format="dimension" />
+        <attr name="waveStartOffset" format="dimension" />
+
+        <attr name="waveFillTop" format="boolean" />
+        <attr name="waveFillBottom" format="boolean" />
+
+        <attr name="waveType" format="enum">
+            <enum name="sin" value="0" />
+            <enum name="cos" value="1" />
+            <enum name="sin_and_cos" value="2" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="PayPsdInputView">
+
+        <attr name="maxCount" format="integer" />
+        <attr name="circleColor" format="color" />
+        <attr name="bottomLineColor" format="color" />
+        <attr name="radius" format="dimension" />
+        <attr name="divideLineWidth" format="dimension" />
+        <attr name="divideLineColor" format="color" />
+        <attr name="rectAngle" format="dimension" />
+        <attr name="psdType" format="enum">
+            <enum name="weChat" value="0" />
+            <enum name="bottomLine" value="1" />
+        </attr>
+    </declare-styleable>
+
+
+</resources>
